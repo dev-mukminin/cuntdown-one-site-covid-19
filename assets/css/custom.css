@@ -1,0 +1,63 @@
+/*
+ * author: Roman Shprenger
+ * template: Oko - Creative Coming Soon Template
+ * version: v1.0
+ * url: http://themeforest.net/user/shprenger
+*/
+
+/**** place custom style at this file ****/
+
+/* Color of texts and background of page */
+/* Links and texts inherit value of color */
+body {
+  color: #fff;
+  background-color: #262626;
+}
+
+/* Hamburger menu on mobile by default */
+.header__menu span {
+  background: #fff;
+}
+
+/* Hamburger menu on mobile when menu is open */
+.header__menu input:checked ~ span {
+  background: #fff;
+}
+
+/* Overlay layer */
+.bg {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Default button (inherit from body by default) */
+.btn {
+  color: inherit;
+  border-color: inherit;
+  background: transparent;
+}
+
+/* Default button on hover and inverse button */
+.btn:hover,
+.btn--inverse {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #252525;
+}
+
+/* Countdown background and text colors */
+.countdown {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Border color of field when form  */
+.form__field--error {
+  border-color: #cc2828;
+}
+
+/* Menu background on mobile */
+@media(max-width: 767px) {
+  .header__nav {
+    background: #262626;
+  }
+}
